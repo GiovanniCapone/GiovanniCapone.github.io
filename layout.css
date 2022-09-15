@@ -47,7 +47,7 @@ body > dl > dt{
 }
 
 body article#htmlterms{
-    width: 42%;
+    width: 41%;
     margin-right: 3em;
     text-align: left;
     
@@ -58,7 +58,7 @@ body article#htmlterms h1{
 }
 
 body article#CSSterms{
-    width: 42%;
+    width: 41%;
     margin-left: 3em;
     text-align: right;
     
