@@ -46,10 +46,26 @@ body > dl > dt{
     margin-top: 1em;
 }
 
-body article#terms{
-    width: 100%;
-    margin: auto;
-    text-align: center;
+body article#htmlterms{
+    width: 42%;
+    margin-right: 3em;
+    text-align: left;
+    
+}
+body article#htmlterms h1{
+    text-align: left;
+    
+}
+
+body article#CSSterms{
+    width: 42%;
+    margin-left: 3em;
+    text-align: right;
+    
+}
+
+body article#CSSterms h1{
+    text-align: right;
     
 }
 
