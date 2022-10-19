@@ -70,6 +70,28 @@ div.col-3-4{
     width: 75%;
  }
 
+table.projects{
+    border: 10px outset rgb(28, 66, 12);
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.projects th, table.projects td{
+    border: 2px solid rgb(28, 66, 12);
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
  @media only screen and (max-width: 480px){
     body{
         margin: 5%;
@@ -109,11 +131,15 @@ div.col-3-4{
     div.col-3-4{
         width: 100%;
      }
+
+    table td, th{
+        font-size: 100%;
+    }
  }
 
  @media only screen and (min-width: 481px){
     
- }s
+ }
 
  @media only screen and (min-width: 769px){
 
