@@ -2,11 +2,11 @@
 
 /* HTML and Body Styles */
     html{
-        background-color: rgb(50, 87, 36);
+        background-color: rgb(65, 68, 87);
     }
 
     body{
-        background-color: blanchedalmond;
+        background-color: rgb(194, 180, 152);
         outline: 3px solid black;
     }
 
@@ -32,14 +32,14 @@
     }
  
    nav a{
-        color: rgb(28, 66, 12);
+        color: rgb(33, 39, 49);
         text-decoration: none;
         font-size: 25px;
         font-weight: bold;
    }
 
    th,td{
-        color: rgb(28, 66, 12);
+        color: rgb(33, 39, 49);
         text-decoration: none;
         font-size: 25px;
         font-weight: bold;

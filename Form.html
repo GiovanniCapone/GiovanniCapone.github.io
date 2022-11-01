@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Giovanni Capone</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="style.css" rel="stylesheet" />
+        <link href="form_layout.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <h1>Form</h1>
+        </header>         
+        <hr>
+        <div class="row" id="nav">
+            <div class="col-1-6">
+                <nav><b><a href="index.html">Home</a></b></nav>
+            </div>
+
+            <div class="col-1-7">
+                <nav><b><a href="projects.html">My Projects</a></b></nav>
+            </div>
+
+            <div class="col-1-7">
+                <nav><b><a href="resume.html">My Resume</a></b></nav>
+            </div>
+
+            <div class="col-1-7">
+                <nav><b><a href="terms.html">Terminology</a></b></nav>
+            </div>
+
+            <div class="col-1-7">
+                <nav><b><a href="hobby.html">Hobby</a></b></nav>
+            </div>
+
+            <div class="col-1-7">
+                <nav><b><a href="favorites.html">Favorites</a></b></nav>
+            </div>
+
+            <div class="col-1-7">
+                <nav><b><a href="Form.html">Form</a></b></nav>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row">
+            <div class="col-1-1">
+                <form id="survey" action="www.example.com" method="post">
+                    <div class="formRow">
+                        <label for="name">Name*</label>
+                        <input name="userName" id="name" type="text" placeholder="last, first" required />
+                    </div>
+
+                    <div class="formRow">
+                        <label for="mail">E-mail*</label>
+                        <input name="userEmail" id="mail" type="email" required/>
+                     </div>
+
+                    <div class="formRow">
+                        <label for="name">Age</label>
+                        <input name="userAge" id="age" type="text"/>
+                    </div>
+
+                    <div class="formRow">
+                        <label for="school">School</label>
+                        <input name="userSchool" id="school" type="text"/>
+                     </div>
+
+                     <div class="formRow">
+                        <label for="hobby">Hobby</label>
+                        <input name="userHobby" id="hobby" type="text"/>
+                     </div>
+
+                     <div class="formRow">
+                        <label for="rangeBox">How much do you like My Website</label>
+                        0
+                        <input name="userRating" id="rangeBox" type="range" value="0" step="1" min="0" max="10" />
+                        10
+                     </div>
+                </form>
+
+            </div>
+        </div>
+        
+
+
+        <div class="row">
+            <div class="col-1-3">
+                <b>Email:</b>
+                <a href="mailto:gcapone456@gmail.com">gcapone456@gmail.com</a>
+            </div>
+            <div class="col-1-3">
+                <b>GitHub:</b>
+                <a href="https://github.com/GiovanniCapone">My GitHub</a>
+            </div>
+            <div class="col-1-3">
+                <b>LinkedIn</b>
+                <a href="https://www.linkedin.com/in/giovanni-capone-14abb9215/">My LinkedIn</a>
+            </div>
+        </div>  
+
+    </body>
+</html>

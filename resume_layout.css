@@ -12,7 +12,9 @@ body > header{
 }
 
 
-
+div{
+    color: rgb(33, 39, 49);
+ }
 
 body{
     padding: 5em;
@@ -67,6 +69,20 @@ div.col-3-4{
     width: 75%;
  }
 
+ div.col-1-5{
+    width: 20%;
+    text-align: center;
+ }
+
+ div.col-1-6{
+    width: 16%;
+    text-align: center;
+ }
+
+ div.col-1-7{
+    width: 14%;
+    text-align: center;
+ }
  @media only screen and (max-width: 480px){
     body{
         margin: 5%;
