@@ -58,29 +58,172 @@
             <div class="col-1-2" id="CSSTerms">
 
                 <h1>CSS Vocab Terms</h1>
+                    <h2><b>Characters</b></h2>
+                    <dt><b>::first-letter</b></dt>
+                        <dd>The first letter of the element text.</dd>
+                    <dt><b>::first-line</b></dt>
+                        <dd>The first line of the element text.</dd>
+                    <dt><b>::before</b></dt>
+                        <dd>Content inserted directly before the element.</dd>
+                    <dt><b>::after</b></dt>
+                        <dd>Content inserted directly after the element.</dd>
+                    <dt><b>:root</b></dt>
+                        <dd>The top element in the document hierarchy.</dd>
+                    <dt><b>:empty</b></dt>
+                        <dd>An element with no content</dd>
+                    <dt><b>:only-child</b></dt>
+                        <dd>An element with no siblings</dd>
+                    <dt><b>:first-child</b></dt>
+                        <dd>the first child of the parent element</dd>
+                    <dt><b>:last-child</b></dt>
+                        <dd>the last child of the parent element</dd>
+                    <dt><b>:first-of-type</b></dt>
+                        <dd>the first descendant of the parent that matches the specifies type</dd>
+                    <dt><b>:last-of-type</b></dt>
+                        <dd>the last descendant of the parent that matches the specifies type</dd>
+                    <dt><b>:nth-of-type(n)</b></dt>
+                        <dd>the nth element of the parent of the specified type</dd>
+                    <dt><b>:nth-last-of-type</b></dt>
+                        <dd>the nth form the last element of the parent of the specifeid type.</dd>
+                    <dt><b>:only-of-type</b></dt>
+                        <dd>An element that has no siblings of the same type</dd>
+                    <dt><b>:lang(code)</b></dt>
+                        <dd>The Element that has the specidied language indicated by code</dd>
+                    <dt><b>:not(selector)</b></dt>
+                        <dd>AN element not matching the specified selector</dd>
                     <h2><b>A:</b></h2>
+                    <dt><b>aspect-ratio</b></dt>
+                        <dd>The ratio of the width of the displaly area to its height.</dd>
+                    <dt><b>attr(attribute)</b></dt>
+                        <dd>Displays the value of the selectors attribute.</dd>
                     <h2><b>B:</b></h2>
+                    <dt><b>block</b></dt>
+                        <dd>Displayed as a block.</dd>
                     <h2><b>C:</b></h2>
+                    <dt><b>.class</b></dt>
+                        <dd>All elements with the class value class.</dd>
+                    <dt><b>close-quote</b></dt>
+                        <dd>Displays a closing quotation mark.</dd>
+                    <dt><b>color</b></dt>
+                        <dd>The number of bits per color component of the output device; if the device does not support color, the value is 0.</dd>
+                    <dt><b>color-index</b></dt>
+                        <dd>The number of colors supported by the output device.</dd>
+                    <dt><b>counter</b></dt>
+                        <dd>Displays a counter value.</dd>
                     <h2><b>D:</b></h2>
+                    <dt><b>device-aspect-ratio)</b></dt>
+                        <dd>The ratio of the device-width value to the device-height value.</dd>
+                    <dt><b>device-height</b></dt>
+                        <dd>The height of the rendering surface of the output device.</dd>
+                    <dt><b>device-width</b></dt>
+                        <dd>The width of the rendering surface of the output device.</dd>
                     <h2><b>E:</b></h2>
+                    <dt><b>elem</b></dt>
+                        <dd>Matches the element elem located anywhere in the document.</dd>
+                    <dt><b>elem.class</b></dt>
+                        <dd>All elem elements with the class attribute value class.</dd>
+                    <dt><b>elem[att]</b></dt>
+                        <dd>All elem elements containing the att attribute.</dd>
+                    <dt><b>elem[att="text"]</b></dt>
+                        <dd>All elem elements whose att atribute equals text.</dd>
+                    <dt><b>elem[att~="text"]</b></dt>
+                        <dd>All elem elements whose att atribute contains text.</dd>
+                    <dt><b>elem[att|="text"]</b></dt>
+                        <dd>All elem elements whose att atribute value is a hypen-separated list of words begining with text.</dd>
+                    <dt><b>elem[att^="text"]</b></dt>
+                        <dd>All elem elements whose att atribute begins with text.</dd>
+                    <dt><b>elem[att$="text"]</b></dt>
+                        <dd>All elem elements whose att atribute ends with text.</dd>
+                    <dt><b>elem#id</b></dt>
+                        <dd>Element elem with the ID value id</dd>
+                    <dt><b>elem1, elem2</b></dt>
+                        <dd>Matches any the element elem1, elem2 etc.</dd>    
+                    <dt><b>elem1 + elem2</b></dt>
+                        <dd>Matches elem2 that is immediatley preceded by the sibling elem1.</dd>
+                    <dt><b>elem1 - elem2</b></dt>
+                        <dd>Matches elem2 that follows the sbiling element elem1.</dd>    
                     <h2><b>F:</b></h2>
                     <h2><b>G:</b></h2>
                     <h2><b>H:</b></h2>
+                    <dt><b>height</b></dt>
+                        <dd>The heigt of the display area of the output device.</dd>
                     <h2><b>I:</b></h2>
+                    <dt><b>inherit</b></dt>
+                        <dd>Inherits the display property of the parent element.</dd>
+                    <dt><b>inline</b></dt>
+                        <dd>Displayed in-line within a block.</dd>
+                    <dt><b>inline-block</b></dt>
+                        <dd>Treated as a block placed in-line within another block.</dd>
+                    <dt><b>#id</b></dt>
+                        <dd>Any element with the ID calue id.</dd>
                     <h2><b>J:</b></h2>
                     <h2><b>K:</b></h2>
                     <h2><b>L:</b></h2>
+                    <dt><b>list-item</b></dt>
+                        <dd>Displayed as a list item alog with a bullet marker</dd>
                     <h2><b>M:</b></h2>
+                    <dt><b>matrix(n, n, n, n, n, n)</b></dt>
+                        <dd>Applies a 2D transformation based on a matrix of six values.</dd>
+                    <dt><b>monochrome</b></dt>
+                        <dd>The number of bits per pixel in the device's monochrom frame buffer.</dd>
                     <h2><b>N:</b></h2> 
+                    <dt><b>no-close-quote</b></dt>
+                        <dd>Removes a closing quotation mark, if previously specified.</dd>
+                    <dt><b>no-open-quote</b></dt>
+                        <dd>Removes an opening quotation mark, if previously specified.</dd>
+                    <dt><b>none  (display-)</b></dt>
+                        <dd>Prevented from displaying, removing it from the rendered page`.</dd>
+                    <dt><b>none</b></dt>
+                        <dd>Sets the content to an empty text string.</dd>
                     <h2><b>O:</b></h2>
+                    <dt><b>open-quote</b></dt>
+                        <dd>Displays an opening quotation mark.</dd>
+                    <dt><b>orientation</b></dt>
+                        <dd>the general decription of the aspet ratie: equal to prtrait when the height of the display area is greater than width; equal to landscape otherwise.</dd>
                     <h2><b>P:</b></h2>
+                    <dt><b>parent > child</b></dt>
+                        <dd>Matches the child element that is a child of the parent element.</dd>
+                    <dt><b>parent decendent</b></dt>
+                        <dd>Matches the descendant wlement that is nested within the parent element at some level</dd>
                     <h2><b>Q:</b></h2>
                     <h2><b>R:</b></h2>
+                    <dt><b>resolution</b></dt>
+                        <dd>The resolution of the output device in pixels, expressed in either dpi(dots per inch) or dcpm(dots per centimeter).</dd>
+                    <dt><b>rotate(angle)</b></dt>
+                        <dd>Rotates the object by angle degrees clockwise; negative calues rotate the object counter-clockwise.</dd>
+                    <dt><b>run-in</b></dt>
+                        <dd>Displayed as a block unless its next sibling is also a block, in which case, it is displayed in-line, essentially combining two blocks into one.</dd>
                     <h2><b>S:</b></h2>
+                    <dt><b>scale(x,y)</b></dt>
+                        <dd>Resizes the object by a factor of x horizontally and a factor of y vertically.</dd>
+                    <dt><b>scale(x)</b></dt>
+                        <dd>Resizes the object by a factor of x horizontally.</dd>
+                    <dt><b>scale(y)</b></dt>
+                        <dd>Resizes the object by a factor of y vertically.</dd>
+                    <dt><b>skew(angleX, angleY)</b></dt>
+                        <dd>Skews the object by angleX degrees horizontally and angleY degrees vertically.</dd>
+                    <dt><b>skewX(angleX)</b></dt>
+                        <dd>Skews the object by angleX degrees horizontally.</dd>
+                    <dt><b>skewy(angley)</b></dt>
+                        <dd>Skews the object by angley degrees vertically.</dd>
                     <h2><b>T:</b></h2>
+                    <dt><b>table</b></dt>
+                        <dd>Displayed as a web table.</dd>
+                    <dt><b>text</b></dt>
+                        <dd>Displays the specified text.</dd>
+                    <dt><b>translate(offX, offY)</b></dt>
+                        <dd>Moves the object offX pixels to the right and offY pixels down, negative values move the object to the left and up, respectively.</dd>
+                    <dt><b>translate(offX)</b></dt>
+                        <dd>Moves the object offX pixels to the right, negative values move the object to the left.</dd>
+                    <dt><b>translate(offY)</b></dt>
+                        <dd>Moves the object offy pixels down, negative values move the object up.</dd>
                     <h2><b>U:</b></h2>
+                    <dt><b>url(url)</b></dt>
+                        <dd>Displays the content of the media (iage, video, etc.) from the file located at url.</dd>
                     <h2><b>V:</b></h2>
                     <h2><b>W:</b></h2>
+                    <dt><b>width</b></dt>
+                        <dd>The width of the display area of the output device.</dd>
                     <h2><b>X:</b></h2>
                     <h2><b>Y:</b></h2>
                     <h2><b>Z:</b></h2>
@@ -93,6 +236,8 @@
                     <dt><b>&lt;!-- & --&gt;</b></dt>
                         <dd>Comment: allows for comments to be added to the code.</dd>
                     <h2><b>A:</b></h2>
+
+                    
                     <dt><b>&lt;a&gt; & &lt;/a&gt;</b></dt>
                         <dd>Marks content that acts as a hypertext link.</dd>
                     <dt><b>&lt;abbr&gt; & &lt;/abbr&gt;</b></dt>
@@ -103,6 +248,8 @@
                         <dd>Marks a self-contained comppsistion in the document such as a news paper stoty.</dd>
                     <dt><b>&lt;aside&gt; & &lt;/aside&gt;</b></dt>
                         <dd>Marks content that is related to a main article.</dd>
+                    <dt><b>&lt;audio&gt;</b></dt>
+                        <dd>Represents a sound clip or audio stream [HTML5]</dd>
                     <h2><b>B:</b></h2>
                     <dt><b>&lt;b&gt; & &lt;/b&gt;</b></dt>
                         <dd>Indicates a span of text to which attention should be drawn (text usually appears in bold).</dd>
@@ -115,6 +262,8 @@
                     <dt><b>&lt;br&gt; & &lt;/br&gt;</b></dt>
                         <dd>Represents a line break within the grouping element.</dd>
                     <h2><b>C:</b></h2>
+                    <dt><b>&lt;canvas&gt;</b></dt>
+                        <dd>Contains programming scripts used to onstruct bitmap images and graphics [HTML5]</dd>
                     <dt><b>&lt;cite&gt; & &lt;/cite&gt;</b></dt>
                         <dd>Marks a citation to a title or author of a cretive work (text usally appears in italics).</dd>
                     <dt><b>&lt;code&gt; & &lt;/code&gt;</b></dt>
@@ -135,6 +284,8 @@
                     <h2><b>E:</b></h2>
                     <dt><b>&lt;em&gt; & &lt;/em&gt;</b></dt>
                         <dd>Indicates content that is emphasized or stressed (text usually appears in italics).</dd>
+                    <dt><b>&lt;embed&gt;</b></dt>
+                        <dd>Contains general embedded content including application or interactive content.</dd>
                     <h2><b>F:</b></h2>
                     <dt><b>&lt;figure&gt; & &lt;/figure&gt;</b></dt>
                         <dd>Contains an illustration, photo, diagram, or similar object that is corss-referenced elsewhere in the document.</dd>
@@ -155,6 +306,10 @@
                     <h2><b>I:</b></h2>
                     <dt><b>&lt;i&gt; & &lt;/i&gt;</b></dt>
                         <dd>Indicates a span of text that expresses an alternate voice or mood (text usually appears in italics).</dd>
+                    <dt><b>&lt;iframe&gt; & &lt;/iframe&gt;</b></dt>
+                        <dd>Contains the contents of an external web page or Internet resource.</dd>
+                    <dt><b>&lt;img&gt;</b></dt>
+                        <dd>Contains a graphic image retrieved from an image file.</dd>
                     <h2><b>J:</b></h2>
                     <h2><b>K:</b></h2>
                     <dt><b>&lt;kbd&gt; & &lt;/kbd&gt;</b></dt>
@@ -175,6 +330,8 @@
                     <dt><b>&lt;nav&gt; & &lt;/nav&gt;</b></dt>
                         <dd>Marks a list of hypertext or navigation links.</dd>
                     <h2><b>O:</b></h2>
+                    <dt><b>&lt;object&gt;</b></dt>
+                        <dd>Contains general embedded content including application or interactive content.</dd>
                     <dt><b>&lt;ol&gt; & &lt;/ol&gt;</b></dt>
                         <dd>Contains an ordered list of items.</dd>
                     <h2><b>P:</b></h2>
@@ -220,6 +377,8 @@
                     <h2><b>V:</b></h2>
                     <dt><b>&lt;var&gt; & &lt;/var&gt;</b></dt>
                         <dd>Marks text that is treated as a variable in a mathematical epression or computer program.</dd>
+                    <dt><b>&lt;video&gt;</b></dt>
+                        <dd>Represents a video clip or video stream with captions [HTML5}</dd>
                     <h2><b>W:</b></h2>
                     <dt><b>&lt;wbr&gt; & &lt;/wbr&gt;</b></dt>
                         <dd>Represents where a line break should occur, if needed, for a long text string.</dd>
@@ -240,10 +399,16 @@
                     <dt><b>content="text"</b></dt>
                         <dd>Provides the value associated with the http-equiv or name attributes.</dd>
                     <h2><b>D:</b></h2>
+                    <dt><b>download="filename"</b></dt>
+                        <dd>Indicates that the link should be downloaded as a file, where filename is the name given to the downloaded file [HTML5]</dd>
                     <h2><b>E:</b></h2>
                     <h2><b>F:</b></h2>
                     <h2><b>G:</b></h2>
                     <h2><b>H:</b></h2>
+                    <dt><b>href="url"</b></dt>
+                        <dd>Provides the url of the hypertext link.</dd>
+                    <dt><b>hreflang="lang"</b></dt>
+                        <dd>Indicates the language of the linked document.</dd>
                     <dt><b>http-equiv="content-type|default-style|refresh"</b></dt>
                         <dd>Provides an HTTP header for the document's content, default style, or refresh interval(in seconds).</dd>
                     <h2><b>I:</b></h2>
@@ -258,8 +423,14 @@
                     <h2><b>P:</b></h2>
                     <h2><b>Q:</b></h2>
                     <h2><b>R:</b></h2>
+                    <dt><b>rel="type</b></dt>
+                        <dd>Provides the relationship between the linked document and the current page.</dd>
                     <h2><b>S:</b></h2>
                     <h2><b>T:</b></h2>
+                    <dt><b>target=(_blank|_parent|_self|_top)</b></dt>
+                        <dd>Specifies where to open the linked document.</dd>
+                    <dt><b>type="mime-type"</b></dt>
+                        <dd>Indicate the media type of the linked document.</dd>
                     <h2><b>U:</b></h2>
                     <h2><b>V:</b></h2>
                     <h2><b>W:</b></h2>
